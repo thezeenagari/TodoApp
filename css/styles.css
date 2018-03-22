@@ -6,6 +6,17 @@ body{
 .time{
 	color: #666;
 }
+.form{
+	position: relative;
+}
+.select_all{
+	position: absolute;
+	left: 10px;
+	top: 7px;
+	display: inline;
+	font-size: 3rem;
+	cursor: pointer;
+}
 .heading{
 	color: #e91e63;
 	width: 400px;
@@ -13,12 +24,11 @@ body{
 	opacity: 0.7;
 }
 .todo_app{
-	box-shadow: 3px 2px 14px 0px #ddd;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
 	width: 500px;
 	margin: 0 auto;
-	background-color: #fdfdfd;
+	background-color: #fff;
 	opacity: 0.9;
-	border-radius: 2px;
 }
 input{
 	padding: 10px 15px;
@@ -34,7 +44,7 @@ ul li{
 	position: relative;
 	text-align: left;
 	list-style: none;
-	padding: 10px 20px;
+	padding: 10px 30px;
 	font-size: 1.5rem;
 }
 .total{
@@ -58,7 +68,7 @@ span{
 	position: absolute;
 	height: 25px;
 	width: 2px;
-	left: -5px;
+	left: 5px;
 	top: 12px;
 	border-radius: 4px;
 	background: #3385ff;
@@ -70,7 +80,7 @@ span{
 	position: absolute;
 	height: 10px;
 	width: 2px;
-	left: -15.5px;
+	left: -6px;
 	top: 23.5px;
 	border-radius: 4px;
 	background-color: #3385ff;
