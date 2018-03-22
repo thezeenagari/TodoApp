@@ -1,0 +1,83 @@
+body{
+	text-align: center;
+	transition: 0.25s all ease-in-out;
+	font-family: 'Fira Sans', sans-serif;
+}
+.time{
+	color: #666;
+}
+.heading{
+	color: #e91e63;
+	width: 400px;
+	margin: auto;
+	opacity: 0.7;
+}
+.todo_app{
+	box-shadow: 3px 2px 14px 0px #ddd;
+	width: 500px;
+	margin: 0 auto;
+	background-color: #fdfdfd;
+	opacity: 0.9;
+	border-radius: 2px;
+}
+input{
+	padding: 10px 15px;
+	border: none;
+	font-size: 1.7rem;
+	font-weight: 100;
+	outline: none;
+}
+ul{
+	padding: 0 20px;
+}
+ul li{
+	position: relative;
+	text-align: left;
+	list-style: none;
+	padding: 10px 20px;
+	font-size: 1.5rem;
+}
+.total{
+	color: #333;
+	font-size: 1rem;
+}
+.footer{
+	display: none;
+}
+span{
+	color: #777;
+	font-size: 1rem;
+}
+.done{
+	text-decoration: line-through;
+	color: #888;
+}
+
+.done:before{
+	content: '';
+	position: absolute;
+	height: 25px;
+	width: 2px;
+	left: -5px;
+	top: 12px;
+	border-radius: 4px;
+	background: #3385ff;
+	transform: rotate(45deg);
+
+}
+.done:after{
+	content: '';
+	position: absolute;
+	height: 10px;
+	width: 2px;
+	left: -15.5px;
+	top: 23.5px;
+	border-radius: 4px;
+	background-color: #3385ff;
+	transform: rotate(-25deg);
+}
+.close{
+	cursor: pointer;
+	z-index: 999;
+	line-height: 30px;
+}
